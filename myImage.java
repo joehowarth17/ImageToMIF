@@ -51,16 +51,6 @@ public class myImage {
             System.out.println(e);
         }
 
-//        int pixl = pic.getRGB(166,146);
-//        System.out.println(pixl);
-//        Color rgb = new Color(pixl);
-//        System.out.println(rgb.getRed() +" " + rgb.getGreen() +" " +rgb.getBlue());
-//
-//        int pixl2 = pic.getRGB(0,0);
-//        System.out.println(pixl2);
-//        Color rgb2 = new Color(pixl2);
-//        System.out.println(rgb2.getRed() +" " + rgb2.getGreen() +" " +rgb2.getBlue());
-
         //get pixel array from image
 
         pixels = new int[width][height];

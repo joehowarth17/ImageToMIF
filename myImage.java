@@ -85,26 +85,3 @@ public class myImage {
         return pixels[x][y];
     }
 
-
-//        public String toString(){
-//
-//            String result = "";
-//
-//            for(int i=0;i<width;i++){
-//                for(int j=0;j<height;j++){
-//
-//                   result += pixels[i][j] + " ";
-//                }
-//                result += "\n";
-//
-//
-//            }
-//
-//
-//        return result;
-//        }
-    }
-
-
-
-

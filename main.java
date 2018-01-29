@@ -1,9 +1,8 @@
-import java.awt.image.BufferedImage;
-
 /**
  * Created by Joseph on 11/30/2017.
  */
 
+import java.awt.image.BufferedImage;
 
 
 public class main {

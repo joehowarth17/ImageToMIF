@@ -81,8 +81,7 @@ public class myImage {
 
         return pixels[x][y];
     }
+
  }
-
-
 
 

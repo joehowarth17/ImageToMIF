@@ -36,9 +36,9 @@ public class main {
             for(int j = 0; j<width; j++){
                 int pixel = pic.getPixel(j,i);
                 bitArray[i][j] = pixel == -1 ? 1:0 ;
-                //System.out.print(bitArray[i][j]);
+
             }
-           // System.out.println(" ");
+
         }
 
        return bitArray;

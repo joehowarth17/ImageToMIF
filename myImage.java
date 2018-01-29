@@ -2,10 +2,8 @@
  * Created by Joseph on 11/30/2017.
  */
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
 import javax.imageio.ImageIO ;
-import java.awt.*;
 import java.io.File ;
 import java.io.IOException;
 import java.awt.image.BufferedImage;
@@ -75,7 +73,6 @@ public class myImage {
 
     public void printPixel(int x, int y){
 
-
         System.out.println(pixels[x][y]);
     }
 
@@ -84,26 +81,7 @@ public class myImage {
 
         return pixels[x][y];
     }
-
-
-//        public String toString(){
-//
-//            String result = "";
-//
-//            for(int i=0;i<width;i++){
-//                for(int j=0;j<height;j++){
-//
-//                   result += pixels[i][j] + " ";
-//                }
-//                result += "\n";
-//
-//
-//            }
-//
-//
-//        return result;
-//        }
-    }
+ }
 
 
 
